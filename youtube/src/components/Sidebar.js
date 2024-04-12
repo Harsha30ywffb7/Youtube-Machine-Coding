@@ -1,6 +1,7 @@
 import React from 'react'
 import Menu from './Menu'
 import {useSelector} from 'react-redux'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
 
@@ -14,7 +15,7 @@ const Sidebar = () => {
       <div className='p-2 shadow-md'>
        
         <ul>
-          <li>Home</li>
+          <Link to='/'><li>Home</li></Link>
           <li>Shorts</li>
           <li>Videos</li>
           <li>Live</li>

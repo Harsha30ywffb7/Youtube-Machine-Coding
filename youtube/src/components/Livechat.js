@@ -45,7 +45,7 @@ const Livechat = () => {
           type="text"
           value={liveMessage}
           onChange={(e)=>{setLiveMessage(e.target.value)}}
-          className="border border-b-black m-3 w-96 "
+          className="border border-b-black m-3 w-96 p-1"
         />
         <button className="px-2 mx-2 bg-red-300 rounded-md">send</button>
       </form>
